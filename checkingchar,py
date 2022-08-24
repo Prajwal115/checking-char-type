@@ -1,0 +1,85 @@
+#Made by Prajwal :)
+#checking if entered data is numberic, alphanumeric, alphabetical or special character
+import time
+while True:
+    ch = input("Enter a character: ")
+
+    #if elif else block begins from here
+
+    #comparing if ch is completely numeric
+
+    if ch.isnumeric() == True:
+      time.sleep(1)
+      print("Processing")
+      time.sleep(1)
+      print("..")
+      time.sleep(1)
+      print("..0")
+      time.sleep(0.2)
+      print("It is a numeric value")
+      #Thanks and do you want to run again part over here
+      print("Thanks for running the program!")
+      run = input("Do you want to run the program again? Y/N: ")
+      if run=="Y":
+               continue;
+      else:
+               print("Goodbye")
+               break
+          
+    #comparing if ch is completely alphabetical
+    elif ch.isalpha() == True:
+      time.sleep(1)
+      print("Processing")
+      time.sleep(1)
+      print("..")
+      time.sleep(1)
+      print("..0")
+      time.sleep(0.2)
+      print("It is an alphabetical value")
+      #Thanks and do you want to run again part over here
+      print("Thanks for running the program!")
+      run = input("Do you want to run the program again? Y/N: ")
+      if run=="Y":
+               continue;
+      else:
+               print("Goodbye")
+               break        
+    
+    #comparing if ch is alphanumberic
+    elif ch.isalnum() == True:
+      time.sleep(1)
+      print("Processing")
+      time.sleep(1)
+      print("..")
+      time.sleep(1)
+      print("..")
+      time.sleep(0.2)
+      print("It is an alphanumerical value")
+      #Thanks and do you want to run again part over here
+      print("Thanks for running the program!")
+      run = input("Do you want to run the program again? Y/N: ")
+      if run=="Y":
+               continue;
+      else:
+               print("Goodbye")
+               break        
+
+    else:
+      time.sleep(1)
+      print("Processing")
+      time.sleep(1)
+      print("..")
+      time.sleep(1)
+      print("..0")
+      time.sleep(0.2)
+      print("It is a special character")
+      #Thanks and do you want to run again part over here
+      print("Thanks for running the program!")
+      run = input("Do you want to run the program again? Y/N: ")
+      if run=="Y":
+               continue;
+      else:
+               print("Goodbye")
+               break       
+  
+  #End of program
